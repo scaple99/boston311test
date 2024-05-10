@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Boston 311 - Graffiti Report</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="formstack-style.css">
+    
+    <script>
+        function showForm() {
+            var select = document.getElementById('reportType');
+            var form = document.getElementById('graffiti-form');
+            if (select.value === 'Submit a Graffiti Report'){
+            form.style.display = 'block';
+            } else {
+            form.style.display = 'none';
+            }
+        }
+    
+    </script>
+    
+</head>
+<body>
+    <div class="navbar-container">
+        <div class="navbar-items">
+        <img src="images/boston311-logo.svg" class="navbar-logo"/>
+        <ul>
+        <li><a href="index.html">REPORT AN ISSUE</a></li>
+        <li><a href="formstack.html">TOP SERVICE REQUESTS</a></li>
+        <li><a href="about.html">ONLINE SERVICES</a></li>
+        </ul>
+        </div>
+    <div class="header">
+        <h1>BOSTON 311 - GRAFFITI REPORT</h1>
+    </div>
+    <div class="content">
+        <h2 style="text-align: left;"> SELECT A REPORT TYPE</h2>
+        <div class = "dropdown">
+            <button id="mybutton"
+                    onclick="location.href='https://keen360formstacktesst.formstack.com/forms/311_graffiti_report';" id="mybutton" class="float-left submit-button"
+            >Submit a Graffiti Report</button>
+            <div class = "dropdown-content">
+                <h3>Submit a Graffiti Report</h3>
+                <p>Use this form to report graffiti in your neighborhood.</p>
+            </div>
+        </div>
+
+</body>
+</html>
+</html>

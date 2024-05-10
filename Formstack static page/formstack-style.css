@@ -1,0 +1,50 @@
+body {
+    font-family: Montserrat, Arial, sans-serif;
+}
+.column-header{
+    font-weight: bold; 
+  }
+.navbar-nav .nav-link:hover {
+  /* color: #fb4d42; */
+  /* text-decoration: underline;
+  text-decoration-color: #fb4d42;
+  text-decoration-thickness: 0.25em;
+  text-underline-offset: 8px; */
+  color:#fb4d42;
+}
+
+.navbar-nav .nav-link{
+    font-size: 18px;
+    color:black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    line-height: 40px;
+  }
+
+  ul li a:hover {
+    /* text-decoration: underline;
+    text-decoration-color: #fb4d42;
+    text-decoration-thickness: 0.25em;
+    text-underline-offset: 8px; */
+    color: #fb4d42;
+  }
+  
+  .popover-header {
+    background-color: black; /* Set background color of popover header */
+    color: white; /* Set text color of popover header */
+    font-weight: bold; /* Set font weight of popover header */
+}
+
+.popover-body {
+    background-color: white; /* Set background color of popover body */
+    color: black; /* Set text color of popover body */
+}
